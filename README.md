@@ -1,2 +1,2 @@
 ## ここで動かせます
-https://applee123.github.io/calculator/
+https://nyann123.github.io/calculator/
