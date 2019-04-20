@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'dgFont';
+  src: url("POCKC___.TTF");
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  background-color: #DDD;
+}
+
+.container{
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.calculator{
+  width: 450px;
+  height: 550px;
+  background-color: #bce2e8;
+  padding: 20px 0 0;
+  margin: 50px auto 0;
+  border-radius: 20px;
+  position: relative;
+  box-shadow: 0 0 10px grey;
+}
+
+.screen{
+  width:400px;
+  height: 60px;
+  background-color: #EEE;
+  margin: 0 auto 20px;
+  padding: 0 20px;
+  text-align: right;
+  box-sizing:border-box;
+  font-size: 60px;
+  font-family: 'dgFont';
+  border-radius: 10px;
+  border: 2px solid #000;
+}
+
+.symbol{
+  font-size: 20px;
+  position: absolute;
+  right:30px;
+}
+
+.button{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+button{
+  font-size: 20px;
+  background-color: #FFF;
+  width:20%;
+  height: 80px;
+  border: 1px solid #000;
+  padding: 0;
+  margin: 0 0 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.acbtn{
+  width:280px;
+}
+
+.long_btn{
+  width: 185px;
+}
