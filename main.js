@@ -23,7 +23,7 @@ function calculation(num_1,num_2) {
     }
   }
   total = sum(num_1,num_2)
-  if (String(total).length > 14){  //14桁以上はエラーに
+  if (String(total).length >= 14){  //14桁以上はエラーに
     $('.screen').text("error!")
   }else{
     $('.screen').text(total);
@@ -60,7 +60,7 @@ $('.acbtn').click(function () {
 
   // 数字,小数点ボタンを押したとき
 $('.numbtn').click(function(){
-  if ($('.screen').text().length < 12){　　//12桁以上の入力を制限する
+  if ($('.screen').text().length < 12){　　//入力を12桁までに制限する
     num_flag = 1
     clickbtn = $(this).text();      //押したボタンの数字を取得
     if (clickbtn === "."){          //小数点を押したか判定
